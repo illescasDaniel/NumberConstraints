@@ -1,9 +1,8 @@
 # NumberConstraints
 A java bean validator for number constraints
 
-Dependencies:
+Dependencies (to be able to validate it):
 --
-
 ```
 <dependency>
 	<groupId>org.hibernate.validator</groupId>
@@ -17,4 +16,4 @@ Dependencies:
 </dependency>
 ```
 
-And OpenRange from my github (I'll upload it later)
+And OpenRange (JavaRange): https://github.com/illescasDaniel/JavaRange
