@@ -18,10 +18,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
  * <br><a href="https://github.com/illescasDaniel/NumberConstraints/blob/master/LICENSE">MIT LICENSE</a>
  * @see NumberConstraintsValidator
  */
-@Target({FIELD,
-		METHOD,
-		PARAMETER,
-		LOCAL_VARIABLE})
+@Target({FIELD, METHOD, PARAMETER, LOCAL_VARIABLE})
 @Retention(RUNTIME)
 @Constraint(validatedBy = NumberConstraintsValidator.class)
 @Documented
